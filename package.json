@@ -1,0 +1,22 @@
+{
+  "name": "rust-type-extractor",
+  "version": "1.0.0",
+  "description": "Extract types from Rust source code using GPT",
+  "main": "dist/cli.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "1.7.7",
+    "commander": "12.1.0",
+    "dotenv": "16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "22.5.4",
+    "typescript": "5.5.4"
+  }
+}
